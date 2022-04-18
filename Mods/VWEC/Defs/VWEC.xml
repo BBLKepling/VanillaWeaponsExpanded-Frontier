@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Weapons Expanded - Coilguns</li>
-		</mods>
+<Defs>
 
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-
-					<xpath>/Defs</xpath>
-					<value>
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>VWEFT_Gun_GaussRevolver</defName>
 		<label>gauss revolver</label>
@@ -150,13 +140,7 @@
 			<li>SmoothedMarble</li>
 		</stopWhenHitAt>
 	</VFECore.ExpandableProjectileDef>
-					</value>
-				</li>
-				
-				<li Class="PatchOperationAdd">
 
-					<xpath>/Defs</xpath>
-					<value>
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>VWEFT_Gun_GaussRepeater</defName>
 		<label>gauss repeater</label>
@@ -297,11 +281,5 @@
 			<li>SmoothedMarble</li>
 		</stopWhenHitAt>
 	</VFECore.ExpandableProjectileDef>
-					</value>
-				</li>
-			</operations>
-		</match>
-	</Operation>
 
-
-</Patch>
+</Defs>

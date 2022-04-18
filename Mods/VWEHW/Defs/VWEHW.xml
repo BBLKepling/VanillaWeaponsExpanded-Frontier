@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Weapons Expanded - Heavy Weapons</li>
-		</mods>
+<Defs>
 
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-
-					<xpath>/Defs</xpath>
-					<value>
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>VWEFT_Gun_HandheldGatlingGun</defName>
     <label>handheld gatling gun</label>
@@ -88,13 +78,7 @@
 			</li>
 		</modExtensions>
   </ThingDef>
-					</value>
-				</li>
-				
-				<li Class="PatchOperationAdd">
 
-					<xpath>/Defs</xpath>
-					<value>
   <ThingDef ParentName="BaseBullet">
     <defName>VWEFT_Bullet_HandheldGatlingGun</defName>
     <label>handheld gatling gun bullet</label>
@@ -115,11 +99,5 @@
        </extraDamages>
     </projectile>
   </ThingDef>
-					</value>
-				</li>
-			</operations>
-		</match>
-	</Operation>
 
-
-</Patch>
+</Defs>

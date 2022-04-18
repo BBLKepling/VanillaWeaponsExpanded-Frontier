@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+
+    <v1.2>
+        <li>/</li>
+        <li IfModActive="VanillaExpanded.VWEC">Mods/VWEC</li>
+        <li IfModActive="VanillaExpanded.VWEHW">Mods/VWEHW</li>
+        <li IfModActive="VanillaExpanded.VWEL">Mods/VWEL</li>
+        <li IfModActive="VanillaExpanded.VWEQ">Mods/VWEQ</li>
+    </v1.2>
+	
+    <v1.3>
+        <li>/</li>
+        <li IfModActive="VanillaExpanded.VWEC">Mods/VWEC</li>
+        <li IfModActive="VanillaExpanded.VWEHW">Mods/VWEHW</li>
+        <li IfModActive="VanillaExpanded.VWEL">Mods/VWEL</li>
+        <li IfModActive="VanillaExpanded.VWEQ">Mods/VWEQ</li>
+    </v1.3>
+	
+</loadFolders>

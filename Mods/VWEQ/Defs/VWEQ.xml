@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Weapons Expanded - Quickdraw</li>
-		</mods>
+<Defs>
 
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-
-					<xpath>/Defs</xpath>
-					<value>
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>VWEFT_Gun_Derringer</defName>
     <label>derringer</label>
@@ -78,13 +68,7 @@
       </li>
     </tools>
   </ThingDef>
-					</value>
-				</li>
-				
-				<li Class="PatchOperationAdd">
 
-					<xpath>/Defs</xpath>
-					<value>
   <ThingDef ParentName="BaseBullet">
     <defName>VWEFT_Bullet_Derringer</defName>
     <label>derringer bullet</label>
@@ -106,13 +90,7 @@
        </extraDamages>
     </projectile>
   </ThingDef>
-					</value>
-				</li>
-				
-				<li Class="PatchOperationAdd">
 
-					<xpath>/Defs</xpath>
-					<value>
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>VWEFT_Gun_LeverActionShotgun</defName>
     <label>lever-action shotgun</label>
@@ -178,13 +156,7 @@
       </li>
     </tools>
   </ThingDef>
-					</value>
-				</li>
-				
-				<li Class="PatchOperationAdd">
 
-					<xpath>/Defs</xpath>
-					<value>
   <ThingDef ParentName="BaseBullet">
     <defName>VWEFT_Bullet_LeverActionShotgun</defName>
     <label>shotgun blast</label>
@@ -207,11 +179,5 @@
        </extraDamages>
     </projectile>
   </ThingDef>
-					</value>
-				</li>
-			</operations>
-		</match>
-	</Operation>
 
-
-</Patch>
+</Defs>

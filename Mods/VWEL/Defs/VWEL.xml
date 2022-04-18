@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Patch>
+<Defs>
 
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Weapons Expanded - Laser</li>
-		</mods>
-
-		<match Class="PatchOperationSequence">
-		<operations>
-
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs</xpath>
-				<value>
   <ThingDef ParentName="BaseBullet">
     <defName>VWEFT_Bullet_SalvagedLaserRevolver</defName>
     <label>unstable laser revolver shot</label>
@@ -96,7 +85,7 @@
 			<OverheatBlastExtraDamage>4</OverheatBlastExtraDamage>
 			<OverheatBlastRadius>1</OverheatBlastRadius>
 			<OverheatChance>0.1</OverheatChance>
-			<OverheatMoteThrown>Mote_HeatGlow</OverheatMoteThrown>
+			<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
 			<OverheatMoteSize>1</OverheatMoteSize>
 		</li> 
 	</comps>
@@ -119,14 +108,9 @@
       </li>
     </tools>
  </ThingDef>
-				</value>
-			</li>
-			
+
 <!-- Repeater -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs</xpath>
-				<value>
-  
+
   <ThingDef ParentName="BaseBullet">
     <defName>VWEFT_Bullet_SalvagedLaserRepeater</defName>
     <label>unstable laser shot</label>
@@ -211,7 +195,7 @@
 			<OverheatBlastExtraDamage>4</OverheatBlastExtraDamage>
 			<OverheatBlastRadius>1.5</OverheatBlastRadius>
 			<OverheatChance>0.1</OverheatChance>
-			<OverheatMoteThrown>Mote_HeatGlow</OverheatMoteThrown>
+			<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
 			<OverheatMoteSize>1</OverheatMoteSize>
 		</li> 
 	</comps>
@@ -234,13 +218,9 @@
       </li>
     </tools>
  </ThingDef>
-				</value>
-			</li>
-			
+		
 <!-- hunting rifle -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs</xpath>
-				<value>
+
   <ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
     <defName>VWEFT_Bullet_SalvagedLaserHuntingRifle</defName>
     <label>unstable precise laser shot</label>
@@ -330,7 +310,7 @@
 			<OverheatBlastExtraDamage>8</OverheatBlastExtraDamage>
 			<OverheatBlastRadius>1.5</OverheatBlastRadius>
 			<OverheatChance>0.1</OverheatChance>
-			<OverheatMoteThrown>Mote_HeatGlow</OverheatMoteThrown>
+			<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
 			<OverheatMoteSize>1</OverheatMoteSize>
 		</li> 
 	</comps>
@@ -353,11 +333,5 @@
       </li>
     </tools>
  </ThingDef>
-				</value>
-			</li>
-			
-		</operations>
-		</match>
-	</Operation>
 
-</Patch>
+</Defs>
